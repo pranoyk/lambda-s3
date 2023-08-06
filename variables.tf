@@ -14,6 +14,10 @@ variable "profile" {
     default = "pk-training"
 }
 
+variable "role_name" {
+  default = "lambda-s3-thumbnail-role"
+}
+
 variable "region" {
     default = "ap-south-1"
 }
